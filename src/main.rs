@@ -1,6 +1,5 @@
 use md5;
-use std::env;
-use std::fs;
+use std::{env, fs};
 fn main() {
     let mut args = env::args().into_iter();
     args.next();
